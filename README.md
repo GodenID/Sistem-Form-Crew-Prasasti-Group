@@ -12,7 +12,7 @@
 [![D1 Database](https://img.shields.io/badge/D1-SQLite-F6821F?style=for-the-badge&logo=cloudflare&logoColor=white)](https://developers.cloudflare.com/d1/)
 [![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)](LICENSE)
 
-[🚀 Live Demo](https://prasasti-crew-form.ranggadhisesa.workers.dev) · [📖 Dokumentasi](#-dokumentasi) · [🐛 Laporkan Bug](../../issues) · [✨ Minta Fitur](../../issues)
+[📖 Dokumentasi](#-dokumentasi) · [🐛 Laporkan Bug](../../issues) · [✨ Minta Fitur](../../issues)
 
 </div>
 
@@ -161,7 +161,7 @@ npm run deploy
 
 ## 🔌 API Reference
 
-Base URL production: `https://prasasti-crew-form.ranggadhisesa.workers.dev`
+Base URL production: `https://<nama-worker-kamu>.<subdomain-kamu>.workers.dev`
 
 Auth admin = header `Authorization: Bearer <ADMIN_TOKEN>`
 
@@ -184,7 +184,7 @@ Auth admin = header `Authorization: Bearer <ADMIN_TOKEN>`
 Contoh:
 
 ```bash
-curl https://prasasti-crew-form.ranggadhisesa.workers.dev/api/health
+curl https://<nama-worker-kamu>.<subdomain-kamu>.workers.dev/api/health
 # {"ok":true,"time":"2026-10-16T00:00:00.000Z"}
 ```
 
